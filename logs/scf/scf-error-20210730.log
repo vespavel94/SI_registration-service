@@ -1,0 +1,1868 @@
+10:13:58.286 [error] scf.trade:rabbitmq: Connection error: {
+  "stack": "Error: Heartbeat timeout\n    at Heart.<anonymous> (C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\connection.js:427:19)\n    at Heart.emit (events.js:375:28)\n    at Heart.emit (domain.js:470:12)\n    at Heart.runHeartbeat (C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\heartbeat.js:88:17)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+  "message": "Heartbeat timeout"
+}
+10:13:58.343 [error] scf.trade:rabbitmq: Connection close
+10:14:19.387 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:14:45.445 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:15:11.504 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:15:37.564 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:16:03.627 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:16:29.685 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:16:55.729 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:17:21.801 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:17:47.857 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:18:13.910 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:18:39.951 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:19:06.010 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:19:32.064 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:19:58.099 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:20:24.146 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:20:50.171 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:21:16.209 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:21:42.254 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:22:08.308 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:22:34.372 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:23:00.408 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:23:26.464 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:23:52.505 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:24:18.566 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:24:44.624 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:25:10.693 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:25:36.746 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:26:02.813 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:26:28.871 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:26:54.916 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:27:20.969 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:27:47.031 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:28:13.092 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:28:39.162 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:29:05.216 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:29:31.269 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:29:57.328 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:30:23.368 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:30:49.431 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:31:15.486 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:31:41.552 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:32:07.603 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:32:33.643 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:32:59.685 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:33:25.733 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:33:51.788 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:34:17.822 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:34:43.873 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:35:09.936 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:35:35.982 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:36:02.049 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:36:28.115 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:36:54.167 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:37:20.223 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:37:46.256 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:38:12.318 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:38:38.355 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:39:04.403 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:39:30.475 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:39:56.536 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:40:22.602 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:40:48.644 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:41:14.680 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:41:40.720 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:42:06.776 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:42:32.834 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:42:58.881 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:43:24.935 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:43:50.981 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:44:17.030 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:44:43.083 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:45:09.126 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:45:35.179 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:46:01.249 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:46:27.280 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:46:53.337 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:47:19.403 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:47:45.453 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:48:11.500 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:48:37.577 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:49:03.616 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:49:29.675 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:49:55.720 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:50:21.763 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:50:47.830 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:51:13.887 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:51:39.961 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:52:06.021 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:52:32.073 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:52:58.133 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:53:24.186 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:53:50.230 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:54:16.288 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:54:42.350 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:55:08.388 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:55:34.439 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:56:00.501 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:56:26.543 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:56:52.605 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:57:18.658 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:57:44.694 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:58:10.752 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:58:36.802 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:59:02.845 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:59:28.862 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+10:59:54.910 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:00:20.960 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:00:47.024 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:01:13.075 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:01:39.123 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:02:05.186 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:02:31.224 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:02:57.274 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:03:23.307 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:03:49.355 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:04:15.409 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:04:41.462 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:05:07.504 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:05:33.569 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:05:59.616 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:06:25.695 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:06:51.752 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:07:17.805 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:07:43.839 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:08:09.874 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:08:35.905 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:09:01.969 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:09:28.015 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:09:54.070 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:10:20.124 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:10:46.159 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:11:12.216 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:11:38.275 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:12:04.323 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:12:30.368 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:12:56.424 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:13:22.468 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:13:48.541 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:14:14.593 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:14:40.634 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:15:06.681 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:15:32.719 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:15:58.791 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:16:24.857 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:16:50.918 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:17:16.972 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:17:43.021 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:18:09.075 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:18:35.109 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:19:01.170 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:19:27.202 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:19:53.250 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:20:19.276 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:20:45.335 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:21:11.401 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:21:37.428 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:22:03.481 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:22:29.538 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:22:55.600 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:23:21.663 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:23:47.728 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:24:13.759 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:24:39.806 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:25:05.847 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:25:31.896 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:25:57.948 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:26:24.005 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:26:50.053 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:27:16.105 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:27:42.181 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:28:08.228 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:28:34.278 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:29:00.324 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:29:26.373 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:29:52.417 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:30:18.480 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:30:44.534 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:31:10.589 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:31:36.622 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:32:02.701 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:32:28.756 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:32:54.809 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:33:20.843 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:33:46.899 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:34:12.935 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:34:38.994 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:35:05.029 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:35:31.083 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:35:57.132 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:36:23.190 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:36:49.247 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:37:15.297 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:37:41.353 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:38:07.404 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:38:33.446 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:38:59.496 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:39:25.546 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:39:51.592 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:40:17.638 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:40:43.699 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ECONNREFUSED 192.168.4.231:5672",
+  "errno": -4078,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:41:09.751 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:41:35.795 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:42:01.824 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:42:27.876 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:42:53.923 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:43:19.997 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}
+11:43:46.033 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ETIMEDOUT 192.168.4.231:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+  "message": "connect ETIMEDOUT 192.168.4.231:5672",
+  "errno": -4039,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "192.168.4.231",
+  "port": 5672
+}

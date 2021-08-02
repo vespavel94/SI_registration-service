@@ -1,0 +1,333 @@
+01:55:23.032 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+01:55:41.204 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+01:57:26.092 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+01:57:33.138 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+01:57:40.192 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+02:54:51.621 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+02:55:27.287 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+02:55:34.343 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:01:19.871 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:02:26.827 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:02:34.309 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:02:41.369 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:04:43.768 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:04:56.487 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+03:05:29.148 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:40:27.672 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:40:34.724 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:40:46.156 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:40:53.218 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:49:21.612 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:49:38.483 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:49:45.546 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:49:52.597 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:49:59.653 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:50:06.727 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:50:13.789 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:50:20.826 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:15.562 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:22.612 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:29.661 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:36.713 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:43.757 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:50.792 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:51:57.846 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:54:10.017 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:58:47.938 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}
+10:58:54.993 [error] scf.trade:rabbitmq: {
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)",
+  "message": "connect ECONNREFUSED 127.0.0.1:5672",
+  "errno": "ECONNREFUSED",
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 5672
+}

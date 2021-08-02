@@ -1,0 +1,170 @@
+01:13:45.745 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:13:45.752 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:13:45.754 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:13:45.757 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:14:37.489 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:14:37.501 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:14:37.505 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:14:37.509 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:15:41.417 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:15:41.425 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:15:41.427 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:15:41.430 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:16:08.662 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:16:08.668 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:16:08.671 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:16:08.673 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:18:10.153 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:18:10.161 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:18:10.164 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:18:10.167 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:19:47.933 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:19:47.939 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:19:47.942 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:19:47.945 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:21:55.718 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:21:55.725 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:21:55.727 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:21:55.730 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+01:22:33.243 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+01:22:33.249 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+01:22:33.252 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+01:22:33.255 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:02:35.746 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:02:35.753 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:02:35.756 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:02:35.759 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:03:06.449 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:03:06.454 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:03:06.457 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:03:06.459 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:05:52.108 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:05:52.116 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:05:52.118 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:05:52.121 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:18:32.965 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:18:32.971 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:18:32.973 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:18:32.975 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:21:30.577 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:21:30.584 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:21:30.587 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:21:30.590 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:33:28.379 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:33:28.385 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:33:28.389 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:33:28.391 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:35:00.673 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:35:00.679 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:35:00.681 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:35:00.684 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:39:00.380 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:39:00.386 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:39:00.389 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:39:00.392 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:46:58.055 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:46:58.063 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:46:58.066 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:46:58.068 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+02:50:00.382 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+02:50:00.387 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+02:50:00.390 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+02:50:00.392 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+20:42:18.041 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+20:42:18.047 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+20:42:18.050 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+20:42:18.053 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+20:49:35.069 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+20:49:35.075 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+20:49:35.078 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+20:49:35.081 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+20:51:42.137 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+20:51:42.143 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+20:51:42.146 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+20:51:42.148 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+20:51:51.069 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+20:51:51.075 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+20:51:51.078 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+20:51:51.080 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+20:57:44.944 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+20:57:44.951 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+20:57:44.953 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+20:57:44.956 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:00:16.284 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:00:16.291 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:00:16.294 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:00:16.296 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:00:43.167 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:00:43.174 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:00:43.177 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:00:43.179 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:01:30.203 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:01:30.211 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:01:30.214 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:01:30.216 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:03:08.499 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:03:08.506 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:03:08.509 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:03:08.512 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:05:59.402 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:05:59.409 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:05:59.414 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:05:59.417 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:06:39.827 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:06:39.835 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:06:39.838 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:06:39.843 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:09:49.132 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:09:49.141 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:09:49.144 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:09:49.147 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:17:22.371 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:17:22.380 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:17:22.383 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:17:22.387 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:29:13.620 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:29:13.627 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:29:13.630 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:29:13.633 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:32:04.116 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:32:04.126 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:32:04.129 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:32:04.133 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:34:04.493 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:34:04.501 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:34:04.504 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:34:04.507 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:37:34.828 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:37:34.836 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:37:34.839 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:37:34.842 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:43:36.747 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:43:36.754 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:43:36.758 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:43:36.761 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:46:49.258 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:46:49.266 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:47:03.071 [error] scf.trade:rabbitmq: Connection error: {
+  "stack": "Error: Unexpected close\n    at succeed (C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\connection.js:272:13)\n    at onOpenOk (C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\connection.js:254:5)\n    at C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\connection.js:166:32\n    at C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\connection.js:160:12\n    at Socket.recv (C:\\Program Files\\nodejs\\projects\\SI_registration-service\\node_modules\\amqplib\\lib\\connection.js:499:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Socket.emit (events.js:375:28)\n    at Socket.emit (domain.js:470:12)\n    at emitReadable_ (internal/streams/readable.js:550:12)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)",
+  "message": "Unexpected close"
+}
+21:47:12.990 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:47:12.998 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:47:13.002 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:47:13.006 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:52:46.520 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:52:46.528 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:52:46.531 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:52:46.535 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:54:09.888 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:54:09.895 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:54:09.899 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:54:09.902 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+21:55:46.249 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+21:55:46.256 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+21:55:46.260 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+21:55:46.264 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS
+22:06:03.909 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
+22:06:03.918 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
+22:06:03.921 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
+22:06:03.925 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS

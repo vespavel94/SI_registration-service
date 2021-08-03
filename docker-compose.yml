@@ -1,0 +1,15 @@
+version: "2"
+services:
+  api:
+    build: "."
+    restart: always
+    container_name: si_registration-service-api
+    user: "node"
+    ports: 
+      - "3040:3000"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=${NODE_ENV}
+    volumes:
+      - ./dist:/home/node/app
+    command: "cross-env NODE_ENV=${NODE_ENV} supervisor node app.js"

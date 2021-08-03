@@ -16,13 +16,25 @@ interface RabbitMethod {
 
 const methods: { [key: string]: RabbitMethod } = {
     'createLead': {
-        methodName: 'kek',
+        methodName: 'createLead',
         type: '',
         microservice: microserviceINT
     },
 
     'getFilialsList': {
         methodName: 'getFilialList',
+        type: '',
+        microservice: microserviceINT
+    },
+
+    'getStrategiesList': {
+        methodName: 'getStrategiesList',
+        type: '',
+        microservice: microserviceINT
+    },
+
+    'sendSmsCode': {
+        methodName: 'sendSmsCode',
         type: '',
         microservice: microserviceINT
     }
@@ -40,13 +52,19 @@ const sendRequest = (method: string, params: object) => {
     return rabbit.sendRequest(methods[method].microservice, methods[method].methodName, param)
 }
 
-const sendRequestPromised = (method: string, params: object) => {
+const sendRequestPromised = async (method: string, params: object) => {
     const param = {
         '$type': `MessageDataTypes.${methods[method].type}, MessageDataTypes`,
         ...params
     }
 
-    return rabbit.sendRequestPromised(methods[method].microservice, methods[method].methodName, param, null, 10000, '')
+    try {
+        const response = (await rabbit.sendRequestPromised(methods[method].microservice, methods[method].methodName, param, null, 10000, '')).response.Data
+        if (response.status === 'error') throw new Error(response.message)
+        return response
+    } catch (err) {
+        throw new Error(`Rabbit error: ${err.message}`)
+    }
    
     // return new Promise((resolve, reject) => {
     //     let param = {

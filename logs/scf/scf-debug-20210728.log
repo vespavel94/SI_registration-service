@@ -1,4 +1,0 @@
-15:21:09.354 [info] scf.trade:rabbitmq: Connected to amqp://192.168.4.231:5672
-15:21:09.362 [info] scf.trade:rabbitmq: Created sender channel for queue VESELOV_SI_RS
-15:21:09.366 [info] scf.trade:rabbitmq: Created receiver channel for queue VESELOV_SI_RS
-15:21:09.369 [info] scf.trade:rabbitmq: Created consumer for queue VESELOV_SI_RS

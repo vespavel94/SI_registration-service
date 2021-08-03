@@ -127,6 +127,14 @@ const methods: { [index: string]: any } = {
                 new PhoneParam('mobile', 'Мобильный телефон клиента', true),
             ])
         ]
+    },
+
+    '/registration/sendSmsCode': {
+        parameters: [
+            new PhoneParam('mobile', 'Мобильный телефон клиента', true),
+            new StringParam('sessionId', 'Сессия клиента', true),
+            new NumParam('step', 'Шаг формы', true)
+        ]
     }
 }
 

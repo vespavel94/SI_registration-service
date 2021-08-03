@@ -1,19 +1,19 @@
 import { Request, Response } from 'express'
-import { CreateLeadRequest } from '../types/request/general'
+import { CreateLeadRequest, SendSmsCodeRequest } from '../types/request/general'
 import ApiResponse from '../types/response/ApiResponse'
 import rabbit from '../rabbit/rabbit'
 
-// const rabbit = new Rabbit()
-
 const controllers = {
     async loadInitialData (req: Request, res: Response) {
-        console.log('kek')
         const apiResponse = new ApiResponse(req, res)
+
         try {
-            const list = await rabbit.sendRequestPromised('getFilialsList', {})
-            console.log(list)
+            const filials: Array<object> = (await rabbit.sendRequestPromised('getFilialsList', {})).filialsList
+            const strategies: Array<object> = (await rabbit.sendRequestPromised('getStrategiesList', {})).strategiesList
+            apiResponse.okResponse('Initial data loaded successfully',
+                { filials, strategies, defaultFilial: 17 })
         } catch (err) {
-            console.log(err)
+            apiResponse.errorResponse(400, err.message)
         } finally {
             apiResponse.json()
         }
@@ -24,10 +24,25 @@ const controllers = {
         const formData: CreateLeadRequest = req.body
 
         try {
-            console.log(formData)
-            apiResponse.okResponse('', 'ok')
+            const response = await rabbit.sendRequestPromised('createLead', formData)
+            apiResponse.okResponse('Create lead succeed', response)
         } catch (err) {
-            apiResponse.errorResponse(400, err) 
+            apiResponse.errorResponse(400, err.message) 
+        } finally {
+            apiResponse.json()
+        }
+    },
+
+    async sendSmsCode(req: Request, res: Response) {
+        const apiResponse = new ApiResponse(req, res)
+        const smsData: SendSmsCodeRequest = req.body
+        smsData.mobile = smsData.mobile.replace(/[^\d]/g, '')
+
+        try {
+            const response = await rabbit.sendRequestPromised('sendSmsCode', smsData)
+            apiResponse.okResponse('Sms code sent successfully', response)
+        } catch (err) {
+            apiResponse.errorResponse(400, err.message) 
         } finally {
             apiResponse.json()
         }

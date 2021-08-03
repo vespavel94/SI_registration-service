@@ -35,7 +35,7 @@ class ApiResponse {
         this.res.end(JSON.stringify(this.body))
     }
 
-    okResponse(data: any, message: string) {
+    okResponse( message: string, data: any) {
         this.body = {
             result: true,
             message,

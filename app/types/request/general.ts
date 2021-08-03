@@ -1,3 +1,7 @@
-import CreateLeadRequest from './createLeadRequest'
+import SendSmsCodeRequest from './SendSmsCodeRequest'
+import CreateLeadRequest from './CreateLeadRequest'
 
-export { CreateLeadRequest }
+export { 
+    CreateLeadRequest,
+    SendSmsCodeRequest   
+}

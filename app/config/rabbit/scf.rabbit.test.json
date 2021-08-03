@@ -1,10 +1,10 @@
 {
     "server": {
         "protocol": "amqps",
-        "hostname": "saf-rmq-ext",
+        "hostname": "dev-ext",
         "port": 5671,
         "username": "dmzrabbit",
-        "password": "PaXDmF55",
+        "password": "4MspGNAHlhshAQSTtJ9f",
         "locale": "en_US",
         "frameMax": 0,
         "heartbeat": 2,
@@ -13,6 +13,6 @@
     "exchange": "SolidMain",
     "channel": {},
     "ssl": {
-        "ca": "./config/cacert.ext.pem"
+        "ca": "./config/cacert.test.pem"
     }
 }

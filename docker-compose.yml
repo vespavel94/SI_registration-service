@@ -11,5 +11,5 @@ services:
     environment:
       - NODE_ENV=${NODE_ENV}
     volumes:
-      - ./dist:/home/node/app
-    command: "cross-env NODE_ENV=${NODE_ENV} supervisor node app.js"
+      - ./:/home/node/app
+    command: "cross-env NODE_ENV=${NODE_ENV} supervisor node dist/app.js"

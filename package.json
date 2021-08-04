@@ -9,6 +9,7 @@
         "dev": "cross-env NODE_ENV=dev nodemon app/app.ts",
         "test": "cross-env NODE_ENV=test USERNAME=veselov supervisor node dist/app.js",
         "test-debug": "cross-env NODE_ENV=debug docker-compose up -d",
+        "stop": "docker-compose down",
         "build": "tsc -p ./"
     },
     "author": "",

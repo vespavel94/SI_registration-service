@@ -2,8 +2,5 @@ FROM node:14
 WORKDIR /home/node/app
 RUN npm i -g supervisor
 RUN npm i -g cross-env
-COPY package*.json ./
-RUN npm i
-COPY . .
 RUN ln -snf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 RUN echo 'Europe/Moscow' /etc/timezone

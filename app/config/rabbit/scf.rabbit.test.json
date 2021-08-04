@@ -13,6 +13,6 @@
     "exchange": "SolidMain",
     "channel": {},
     "ssl": {
-        "ca": "./config/cacert.test.pem"
+        "ca": "./app/config/rabbit/cacert.test.pem"
     }
 }

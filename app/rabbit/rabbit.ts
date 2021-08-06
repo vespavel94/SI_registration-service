@@ -37,6 +37,18 @@ const methods: { [key: string]: RabbitMethod } = {
         methodName: 'sendSmsCode',
         type: '',
         microservice: microserviceINT
+    },
+
+    'saveStep1': {
+        methodName: 'saveStep1',
+        type: '',
+        microservice: microserviceINT
+    },
+
+    'saveStep2': {
+        methodName: 'saveStep2',
+        type: '',
+        microservice: microserviceINT
     }
 }
 
@@ -65,24 +77,6 @@ const sendRequestPromised = async (method: string, params: object) => {
     } catch (err) {
         throw new Error(`Rabbit error: ${err.message}`)
     }
-   
-    // return new Promise((resolve, reject) => {
-    //     let param = {
-    //         '$type': `MessageDataTypes.${methods[method].type}, MessageDataTypes`,
-    //         ...params
-    //     }
-    //     rabbit.sendRequestPromised(methods[method].microservice, methods[method].methodName, param, null, 10000, '')
-    //         .then((response: any) => {
-    //             if (response.response) {
-    //                 resolve(response.response.Data)
-    //             } else {
-    //                 reject(new Error('No data recieved'))
-    //             }
-    //         })
-    //         .catch((err: any) => {
-    //             reject(new Error(err))
-    //         })
-    // })
 }
 
 export default { 

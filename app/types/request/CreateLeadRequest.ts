@@ -1,10 +1,11 @@
 interface CreateLeadRequest {
     form: {
-        firstName: string,
-        lastName: string,
+        firstName: string
+        lastName: string
         middleName: string
-        email: string,
+        email: string
         mobile: string
+        smsCode: string
     }
 }
 

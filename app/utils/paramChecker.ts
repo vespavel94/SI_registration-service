@@ -133,6 +133,7 @@ const methods: { [index: string]: any } = {
                 new StringParam('middleName', 'Отчество клиента', true),
                 new StringParam('email', 'Почта клиента', true),
                 new PhoneParam('mobile', 'Мобильный телефон клиента', true),
+                new StringParam('smsCode', 'Смс код подтверждения', true)
             ])
         ]
     },
@@ -148,25 +149,25 @@ const methods: { [index: string]: any } = {
     '/registration/saveStep1': {
         parameters: [
             new ObjParam('form', 'Объект формы saveStep1', true, [
-                new StringParam('firstName', 'Имя клиента', true),
-                new StringParam('lastName', 'Фамилия клиента', true),
-                new StringParam('middleName', 'Отчество клиента', true),
+                new BoolParam('isIIS', 'Выбран ИИС?', true),
+                new BoolParam('isEBS', 'Выбран ЕБС?', true),
+                new ObjParam('selectedBoards', 'Объект формы saveStep1', true, []),
                 new StringParam('birthday', 'Дата рождения Клиента', true),
                 new StringParam('passportSeries', 'Серия паспорта', true),
                 new StringParam('passportNumber', 'Номер паспорта', true),
                 new StringParam('passportDate', 'Дата получения паспорта', true),
                 new StringParam('passportOrgName', 'Кем выдан', true),
+                new StringParam('passportBirthPlace', 'Место рождения', true),
                 new StringParam('passportOrgCode', 'Код подразделения', true),
                 new StringParam('inn', 'ИНН', true),
-                new PhoneParam('mobile', 'Мобильный телефон клиента', true),
-                new StringParam('email', 'Почта клиента', true),
-                new BoolParam('isIIS', 'Выбран ИИС?', true),
                 new BoolParam('IISWarningApproved', 'Подтвержено предупреждение?', true),
                 new StringParam('selectedFilial', 'Выбранный филиал', true),
                 new NumParam('selectedFilialCode', 'Код филиала', true),
-                new BoolParam('isDU', 'Выбран ДУ?', true),
-                new StringParam('selectedDUStrategyLabel', 'Выбранная стартегия ДУ', true),
-                new NumParam('selectedDUStrategy', 'Код стратегии', true, true),
+                new StringParam('addressOff', 'Адрес регистрации', true),
+                new StringParam('addressPost', 'Почтовый адрес', true),
+                new BoolParam('compliance', 'Принял соглашение?', true),
+                new StringParam('fileScan1', 'Первый разворот паспорта BASE64', true),
+                new StringParam('fileScan2', 'Второй разворот паспорта BASE64', true),
                 new StringParam('smsCode', 'Смс код подтверждения', true)
             ]),
             new StringParam('sessionId', 'ID сессии', true)
@@ -176,15 +177,16 @@ const methods: { [index: string]: any } = {
     '/registration/saveStep2': {
         parameters: [
             new ObjParam('form', 'Объект формы saveStep2', true, [
-                new StringParam('addressOff', 'Адрес регистрации', true),
-                new StringParam('addressPost', 'Почтовый адрес', true),
-                new StringParam('snils', 'Снилс', true),
-                new BoolParam('compliance', 'Принял соглашение?', true),
-                new StringParam('fileScan1', 'Первый разворот паспорта BASE64', true),
-                new StringParam('fileScan2', 'Второй разворот паспорта BASE64', true),
+                new StringParam('selectedCurrency', 'Смс код подтверждения', true),
+                new StringParam('bankBIK', 'БИК', true),
+                new StringParam('bankName', 'Название эмитента', true),
+                new StringParam('bankAccountNum', 'Номер счета', true),
+                new StringParam('bankAccountHolder', 'Имя держателя', true),
+                new StringParam('bankFileScan', 'Скан реквизитов BASE64', true),
                 new StringParam('smsCode', 'Смс код подтверждения', true)
             ]),
-            new StringParam('sessionId', 'ID сессии', true)
+            new StringParam('sessionId', 'ID сессии', true),
+            new StringParam('pushServiceToken', 'FCM/HCM токен', true),
         ]
     }
 }

@@ -1,24 +1,24 @@
 interface SaveStep1Request {
     form: {
-        lastName: string
-        firstName: string
-        middleName: string
+        isIIS: boolean
+        IISWarningApproved: boolean
+        isEBS: boolean
+        selectedBoards: {[key: string]: boolean }
+        selectedFilial: string
+        selectedFilialCode: number
         birthday: string
         passportSeries: string
         passportNumber: string
         passportDate: string
         passportOrgName: string
+        passportBirthPlace: string
         passportOrgCode: string
         inn: string
-        mobile: string
-        email: string
-        isIIS: boolean,
-        IISWarningApproved: boolean
-        selectedFilial: string
-        selectedFilialCode: number
-        isDU: false
-        selectedDUStrategy: number
-        selectedDUStrategyLabel: string
+        addressOff: string
+        addressPost: string
+        compliance: boolean
+        fileScan1: string
+        fileScan2: string
         smsCode: string
     },
     sessionId: string

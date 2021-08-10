@@ -5,7 +5,6 @@ interface CreateLeadRequest {
         middleName: string
         email: string
         mobile: string
-        smsCode: string
     }
 }
 

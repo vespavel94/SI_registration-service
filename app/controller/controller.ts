@@ -138,7 +138,7 @@ const controllers = {
 
         try {
             if (debug) {
-                apiResponse.okResponse('Session status recieved succefully', { status: 'CheckingPassport' })
+                apiResponse.okResponse('Session status recieved succefully', { status: 'SMEV_PROCESSING' })
                 return
             }
             const response = await rabbit.sendRequestPromised('getSessionStatus', { sessionId })

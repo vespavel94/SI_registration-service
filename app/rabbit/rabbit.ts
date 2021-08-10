@@ -36,13 +36,13 @@ const methods: { [key: string]: RabbitMethod } = {
     },
 
     'saveStep1': {
-        methodName: 'saveStep1Mobile',
+        methodName: 'saveStep2Mobile',
         type: '',
         microservice: microserviceINT
     },
 
     'saveStep2': {
-        methodName: 'saveStep2Mobile',
+        methodName: 'saveStep3Mobile',
         type: '',
         microservice: microserviceINT
     },

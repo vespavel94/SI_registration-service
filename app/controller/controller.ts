@@ -74,6 +74,9 @@ const controllers = {
         const smsData: SendSmsCodeRequest = req.body
         smsData.mobile = smsData.mobile.replace(/[^\d]/g, '')
 
+        if (smsData.sessionId === null) smsData.sessionId = ''
+        smsData.encrypt = false
+
         try {
             const response = await rabbit.sendRequestPromised('sendSmsCode', smsData)
             apiResponse.okResponse('Sms code sent successfully', response)

@@ -1,4 +1,5 @@
 const checkPhone = /^\(9[0-9]{2}\) [0-9]{3}-[0-9]{4}$/
+const checkTimestamp = /(\d{4})-(\d{2})-(\d{2})T(\d{2})\:(\d{2})\:(\d{2})[+-](\d{2})\:(\d{2})/
 
 interface CheckResult {
     success: boolean,
@@ -92,6 +93,23 @@ class PhoneParam extends Param {
     }
 }
 
+class TimestampParam extends Param {
+    type: String = 'ISO8601'
+    constructor(name: string, description: string, mandatory: boolean, nullable: boolean = false) {
+        super(name, description, mandatory, nullable)
+    }
+    check(value: any) {
+        if (this.nullable && value === null) return
+        if (typeof (value) === 'string') {
+            if (!checkTimestamp.test(value)) {
+                throw new Error(`${this.name} не прошел проверку формата`)
+            }
+        } else {
+            throw new Error(`${this.name} не прошел проверку`)
+        }
+    }
+}
+
 class ObjParam extends Param {
     type: string = 'ОБЪЕКТ'
     keys: Array<any>
@@ -133,7 +151,8 @@ const methods: { [index: string]: any } = {
                 new StringParam('middleName', 'Отчество клиента', true),
                 new StringParam('email', 'Почта клиента', true),
                 new PhoneParam('mobile', 'Мобильный телефон клиента', true)
-            ])
+            ]),
+            new TimestampParam('timestamp', 'Время отправки запроса в ISO8601', true)
         ]
     },
 

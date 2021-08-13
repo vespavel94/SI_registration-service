@@ -140,7 +140,7 @@ const methods: { [index: string]: any } = {
     '/registration/sendSmsCode': {
         parameters: [
             new PhoneParam('mobile', 'Мобильный телефон клиента', true),
-            new StringParam('sessionId', 'Сессия клиента', true, true),
+            new NumParam('sessionId', 'Сессия клиента', true, true),
             new NumParam('step', 'Шаг формы', true)
         ]
     },
@@ -169,7 +169,7 @@ const methods: { [index: string]: any } = {
                 new StringParam('fileScan2', 'Второй разворот паспорта BASE64', true),
                 new StringParam('smsCode', 'Смс код подтверждения', true)
             ]),
-            new StringParam('sessionId', 'ID сессии', true)
+            new NumParam('sessionId', 'ID сессии', true)
         ]
     },
 
@@ -184,7 +184,7 @@ const methods: { [index: string]: any } = {
                 new StringParam('bankFileScan', 'Скан реквизитов BASE64', true),
                 new StringParam('smsCode', 'Смс код подтверждения', true)
             ]),
-            new StringParam('sessionId', 'ID сессии', true),
+            new NumParam('sessionId', 'ID сессии', true),
             new StringParam('pushServiceToken', 'FCM/HCM токен', true),
         ]
     }

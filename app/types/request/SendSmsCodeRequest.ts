@@ -1,6 +1,6 @@
 interface SendSmsCodeRequest {
     mobile: string,
-    sessionId: string,
+    sessionId: number | null,
     step: number,
     encrypt?: boolean
 }

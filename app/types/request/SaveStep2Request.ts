@@ -9,9 +9,14 @@ interface SaveStep2Request {
         bankAccountHolder: string
         bankFileScan: string
         smsCode: string
+        utm_medium: string
+        utm_source: string
+        utm_content: string
+        assigned_by_id: number
     },
-    sessionId: string,
+    sessionId: number
     pushServiceToken: string
+    encrypt?: boolean
 }
 
 export default SaveStep2Request

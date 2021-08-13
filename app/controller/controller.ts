@@ -3,7 +3,8 @@ import {
     CreateLeadRequest,
     SendSmsCodeRequest,
     SaveStep1Request,
-    SaveStep2Request
+    SaveStep2Request,
+    UTMMeta
 } from '../types/request/general'
 import ApiResponse from '../types/response/ApiResponse'
 import rabbit from '../rabbit/rabbit'
@@ -50,15 +51,17 @@ const controllers = {
     async createLead(req: Request, res: Response) {
         const apiResponse = new ApiResponse(req, res)
         const formData: CreateLeadRequest = req.body
+        formData.form = { ...formData.form, ...new UTMMeta(req.headers['x-os-type']) }
+        formData.encrypt = false
 
         try {
-            if (debug) {
-                apiResponse.okResponse('Create lead succeed', {
-                    status: 'NEW',
-                    sessionId: 'U2FsdGVkX1+zYe3GXHLFtoBETxqj81aMHMAPK0UBt8fyERYzJZ0BAsR1PGMh7VJZ'
-                })
-                return
-            }
+            // if (debug) {
+            //     apiResponse.okResponse('Create lead succeed', {
+            //         status: 'NEW',
+            //         sessionId: 'U2FsdGVkX1+zYe3GXHLFtoBETxqj81aMHMAPK0UBt8fyERYzJZ0BAsR1PGMh7VJZ'
+            //     })
+            //     return
+            // }
             
             const response = await rabbit.sendRequestPromised('createLead', formData)
             apiResponse.okResponse('Create lead succeed', response)
@@ -74,7 +77,7 @@ const controllers = {
         const smsData: SendSmsCodeRequest = req.body
         smsData.mobile = smsData.mobile.replace(/[^\d]/g, '')
 
-        if (smsData.sessionId === null) smsData.sessionId = ''
+        if (smsData.sessionId === null) smsData.sessionId = null
         smsData.encrypt = false
 
         try {
@@ -90,12 +93,13 @@ const controllers = {
     async saveStep1(req: Request, res: Response) {
         const apiResponse = new ApiResponse(req, res)
         const step1Data: SaveStep1Request = req.body
-
+        step1Data.form = { ...step1Data.form, ...new UTMMeta(req.headers['x-os-type']) }
+        step1Data.encrypt = false
         try {
-            if (debug) {
-                apiResponse.okResponse('Step 1 signed Successfully', null)
-                return
-            }
+            // if (debug) {
+            //     apiResponse.okResponse('Step 1 signed Successfully', null)
+            //     return
+            // }
 
             await rabbit.sendRequestPromised('saveStep1', step1Data)
             apiResponse.okResponse('Step 1 signed Successfully', null)
@@ -109,7 +113,8 @@ const controllers = {
     async saveStep2(req: Request, res: Response) {
         const apiResponse = new ApiResponse(req, res)
         const step2Data: SaveStep2Request = req.body
-
+        step2Data.form = { ...step2Data.form, ...new UTMMeta(req.headers['x-os-type']) }
+        step2Data.encrypt = false
         try {
             if (debug) {
                 apiResponse.okResponse('Step 2 signed Successfully', null)

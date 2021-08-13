@@ -20,8 +20,13 @@ interface SaveStep1Request {
         fileScan1: string
         fileScan2: string
         smsCode: string
+        utm_medium: string
+        utm_source: string
+        utm_content: string
+        assigned_by_id: number
     },
-    sessionId: string
+    sessionId: number
+    encrypt?: boolean
 }
 
 export default SaveStep1Request

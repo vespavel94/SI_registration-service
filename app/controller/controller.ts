@@ -10,6 +10,7 @@ import ApiResponse from '../types/response/ApiResponse'
 import rabbit from '../rabbit/rabbit'
 
 const debug = true
+const timers: {[key: string]: any} = {}
 
 const controllers = {
     async loadInitialData(req: Request, res: Response) {
@@ -118,6 +119,14 @@ const controllers = {
         try {
             if (debug) {
                 apiResponse.okResponse('Step 2 signed Successfully', null)
+                const index: string = step2Data.sessionId.toString()
+                timers[index] = 'SMEV_PROCESSING'
+                setTimeout(() => {
+                    timers[index] = 'MIDDLE_PROCESSING'
+                    setTimeout(() => {
+                        timers[index] = 'SIGN_REQUIRED' 
+                    }, 10000)
+                }, 10000)
                 return
             }
 
@@ -142,11 +151,12 @@ const controllers = {
 
     async getSessionStatus(req: Request, res: Response) {
         const apiResponse = new ApiResponse(req, res)
-        const sessionId: string = req.params.sessionId
+        const sessionId: number = parseInt(req.params.sessionId)
 
         try {
             if (debug) {
-                apiResponse.okResponse('Session status recieved succefully', { status: 'SMEV_PROCESSING' })
+                if (!timers[sessionId.toString()]) throw new Error('Session not found')
+                apiResponse.okResponse('Session status recieved succefully', { status: timers[sessionId.toString()] })
                 return
             }
             const response = await rabbit.sendRequestPromised('getSessionStatus', { sessionId })

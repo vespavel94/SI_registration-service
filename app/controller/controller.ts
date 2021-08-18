@@ -40,8 +40,14 @@ const controllers = {
                     default: true
                 }
             ]
+            const availableCurrency: Array<any> = [
+                { label: 'Рубль РФ', value: 'RUB'},
+                { label: 'Дополнительный. Рубль', value: 'ADD_RUB'},
+                { label: 'Доллар США', value: 'USD'},
+                { label: 'Евро', value: 'EUR'},
+            ]
             apiResponse.okResponse('Initial data loaded successfully',
-                { filials, defaultFilial: 17, secBoardsArr })
+                { filials, defaultFilial: 17, secBoardsArr, availableCurrency, defaultCurrency: 'RUB' })
         } catch (err) {
             apiResponse.errorResponse(400, err.message)
         } finally {

@@ -69,7 +69,13 @@ const methods: { [key: string]: RabbitMethod } = {
         methodName: 'getDocumentsToSignMobile',
         type: '',
         microservice: microserviceINT
-    }
+    },
+
+    "acceptMobile": {
+        methodName: 'acceptMobile',
+        type: '',
+        microservice: microserviceINT
+    },
 }
 
 rabbit.on('sendNotificationRS', async(request: any) => {

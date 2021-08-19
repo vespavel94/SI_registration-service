@@ -11,6 +11,7 @@ interface CreateLeadRequest {
         assigned_by_id: number
     }
     encrypt?: boolean
+    timestamp: string
 }
 
 export default CreateLeadRequest

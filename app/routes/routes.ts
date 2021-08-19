@@ -13,5 +13,6 @@ router.post('/saveStep1', (req, res) => controllers.saveStep1(req, res))
 router.post('/saveStep2', (req, res) => controllers.saveStep2(req, res))
 router.get('/getSessionStatus/:sessionId', (req, res) => controllers.getSessionStatus(req, res))
 router.get('/getDocuments/:sessionId', (req, res) => controllers.getDocumentsToSign(req, res))
+router.post('/signDocuments', (req, res) => controllers.signDocuments(req, res))
 
 export default router

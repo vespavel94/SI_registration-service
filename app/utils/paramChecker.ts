@@ -206,7 +206,15 @@ const methods: { [index: string]: any } = {
             new NumParam('sessionId', 'ID сессии', true),
             new StringParam('pushServiceToken', 'FCM/HCM токен', true),
         ]
-    }
+    },
+
+    '/registration/signDocuments': {
+        parameters: [
+            new StringParam('smsCode', 'Смс код подтверждения', true),
+            new NumParam('sessionId', 'Сессия клиента', true, true),
+            new TimestampParam('timestamp', 'Время отправки запроса в ISO8601', true)
+        ]
+    },
 }
 
 const checkParameters = (req: any) => {

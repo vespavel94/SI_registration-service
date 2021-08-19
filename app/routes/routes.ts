@@ -12,5 +12,6 @@ router.post('/sendSmsCode', (req, res) => controllers.sendSmsCode(req, res))
 router.post('/saveStep1', (req, res) => controllers.saveStep1(req, res))
 router.post('/saveStep2', (req, res) => controllers.saveStep2(req, res))
 router.get('/getSessionStatus/:sessionId', (req, res) => controllers.getSessionStatus(req, res))
+router.get('/getDocuments/:sessionId', (req, res) => controllers.getDocumentsToSign(req, res))
 
 export default router

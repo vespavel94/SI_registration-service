@@ -8,9 +8,10 @@ import {
 } from '../types/request/general'
 import ApiResponse from '../types/response/ApiResponse'
 import rabbit from '../rabbit/rabbit'
+import * as fs from 'fs'
 
 const debug = true
-const timers: {[key: string]: any} = {}
+const timers: { [key: string]: any } = {}
 
 const controllers = {
     async loadInitialData(req: Request, res: Response) {
@@ -41,10 +42,10 @@ const controllers = {
                 }
             ]
             const availableCurrency: Array<any> = [
-                { label: 'Рубль РФ', value: 'RUB'},
-                { label: 'Дополнительный. Рубль', value: 'ADD_RUB'},
-                { label: 'Доллар США', value: 'USD'},
-                { label: 'Евро', value: 'EUR'},
+                { label: 'Рубль РФ', value: 'RUB' },
+                { label: 'Дополнительный. Рубль', value: 'ADD_RUB' },
+                { label: 'Доллар США', value: 'USD' },
+                { label: 'Евро', value: 'EUR' },
             ]
             apiResponse.okResponse('Initial data loaded successfully',
                 { filials, defaultFilial: 17, secBoardsArr, availableCurrency, defaultCurrency: 'RUB' })
@@ -69,7 +70,7 @@ const controllers = {
             //     })
             //     return
             // }
-            
+
             const response = await rabbit.sendRequestPromised('createLead', formData)
             apiResponse.okResponse('Create lead succeed', response)
         } catch (err) {
@@ -130,7 +131,7 @@ const controllers = {
                 setTimeout(() => {
                     timers[index] = 'MIDDLE_PROCESSING'
                     setTimeout(() => {
-                        timers[index] = 'SIGN_REQUIRED' 
+                        timers[index] = 'SIGN_REQUIRED'
                     }, 10000)
                 }, 10000)
                 return
@@ -146,7 +147,7 @@ const controllers = {
                     osType: req.headers['x-os-type']
                 })
             }
-            
+
             apiResponse.okResponse('Step 2 signed Successfully', null)
         } catch (err) {
             apiResponse.errorResponse(400, err.message)
@@ -167,6 +168,30 @@ const controllers = {
             }
             const response = await rabbit.sendRequestPromised('getSessionStatus', { sessionId })
             apiResponse.okResponse('Session status recieved succefully', response)
+        } catch (err) {
+            apiResponse.errorResponse(400, err.message)
+        } finally {
+            apiResponse.json()
+        }
+    },
+
+    async getDocumentsToSign(req: Request, res: Response) {
+        const apiResponse = new ApiResponse(req, res)
+        const sessionId: number = parseInt(req.params.sessionId)
+
+        try {
+            if (debug) {
+                const res = await fs.promises.readFile('test.zip')
+                const data = 'data:application/zip;base64,' + Buffer.from(res).toString('base64')
+                
+                // let base64Data = Buffer.from(res).toString('base64')
+                // await fs.promises.writeFile('out.zip', base64Data, {encoding: 'base64'});
+
+                apiResponse.okResponse('Documents package recieved succefully', { documents: data })
+                return
+            }
+            const response = await rabbit.sendRequestPromised('getDocumentsToSignMobile', { sessionId })
+            apiResponse.okResponse('Documents package recieved succefully', response)
         } catch (err) {
             apiResponse.errorResponse(400, err.message)
         } finally {

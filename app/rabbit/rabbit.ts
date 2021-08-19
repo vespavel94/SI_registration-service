@@ -63,6 +63,12 @@ const methods: { [key: string]: RabbitMethod } = {
         methodName: 'getSessionStatus',
         type: '',
         microservice: microserviceINT
+    },
+
+    "getDocumentsToSignMobile": {
+        methodName: 'getDocumentsToSignMobile',
+        type: '',
+        microservice: microserviceINT
     }
 }
 

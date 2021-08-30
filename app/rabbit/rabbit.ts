@@ -79,6 +79,7 @@ const methods: { [key: string]: RabbitMethod } = {
 }
 
 rabbit.on('sendNotificationRS', async(request: any) => {
+    console.log('got notif')
     const result = await sendRequestPromised('sendNotificationRS', request.message.Data)
     rabbit.sendResponse(request, result)
 })

@@ -195,12 +195,12 @@ const methods: { [index: string]: any } = {
     '/registration/saveStep2': {
         parameters: [
             new ObjParam('form', 'Объект формы saveStep2', true, [
-                new StringParam('selectedCurrency', 'Смс код подтверждения', true),
-                new StringParam('bankBIK', 'БИК', true),
-                new StringParam('bankName', 'Название эмитента', true),
-                new StringParam('bankAccountNum', 'Номер счета', true),
-                new StringParam('bankAccountHolder', 'Имя держателя', true),
-                new StringParam('bankFileScan', 'Скан реквизитов BASE64', true),
+                new StringParam('selectedCurrency', 'Смс код подтверждения', false, true),
+                new StringParam('bankBIK', 'БИК', false, true),
+                new StringParam('bankName', 'Название эмитента', false, true),
+                new StringParam('bankAccountNum', 'Номер счета', false, true),
+                new StringParam('bankAccountHolder', 'Имя держателя', false, true),
+                new StringParam('bankFileScan', 'Скан реквизитов BASE64', false, true),
                 new StringParam('smsCode', 'Смс код подтверждения', true)
             ]),
             new NumParam('sessionId', 'ID сессии', true),

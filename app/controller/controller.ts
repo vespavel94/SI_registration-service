@@ -124,21 +124,41 @@ const controllers = {
         const step2Data: SaveStep2Request = req.body
         step2Data.form = { ...step2Data.form, ...new UTMMeta(req.headers['x-os-type']) }
         step2Data.encrypt = false
-        try {
-            if (debug) {
-                apiResponse.okResponse('Step 2 signed Successfully', null)
-                const index: string = step2Data.sessionId.toString()
-                timers[index] = 'SMEV_PROCESSING'
-                setTimeout(() => {
-                    timers[index] = 'MIDDLE_PROCESSING'
-                    setTimeout(() => {
-                        timers[index] = 'SIGN_REQUIRED'
-                    }, 10000)
-                }, 10000)
-                return
-            }
 
-            await rabbit.sendRequestPromised('saveStep2', step2Data)
+        const rabbitRequest: any = {
+            form: {
+                accounts: [
+                    {
+                        selectedCurrency: step2Data.form.selectedCurrency,
+                        bankBIK: step2Data.form.bankBIK,
+                        bankName: step2Data.form.bankName,
+                        bankAccountNum: step2Data.form.bankAccountNum,
+                        bankAccountHolder: step2Data.form.bankAccountHolder,
+                        bankFileScan: step2Data.form.bankFileScan
+                    }
+                ],
+                smsCode: step2Data.form.smsCode,
+                ...new UTMMeta(req.headers['x-os-type']),
+            },
+            sessionId: step2Data.sessionId,
+            pushServiceToken: step2Data.pushServiceToken,
+            encrypt: false
+        }
+        try {
+            // if (debug) {
+            //     apiResponse.okResponse('Step 2 signed Successfully', null)
+            //     const index: string = step2Data.sessionId.toString()
+            //     timers[index] = 'SMEV_PROCESSING'
+            //     setTimeout(() => {
+            //         timers[index] = 'MIDDLE_PROCESSING'
+            //         setTimeout(() => {
+            //             timers[index] = 'SIGN_REQUIRED'
+            //         }, 10000)
+            //     }, 10000)
+            //     return
+            // }
+
+            await rabbit.sendRequestPromised('saveStep2', rabbitRequest)
 
             if (process.env.NODE_ENV === 'test' || process.env.NODE_ENV === 'production') {
                 await rabbit.sendRequestPromised('saveNotificationToken', {
@@ -181,17 +201,17 @@ const controllers = {
         const sessionId: number = parseInt(req.params.sessionId)
 
         try {
-            if (debug) {
-                const res = await fs.promises.readFile('test.zip')
-                const data = 'data:application/zip;base64,' + Buffer.from(res).toString('base64')
-                
-                // let base64Data = Buffer.from(res).toString('base64')
-                // await fs.promises.writeFile('out.zip', base64Data, {encoding: 'base64'});
+            // if (debug) {
+            //     const res = await fs.promises.readFile('test.zip')
+            //     const data = 'data:application/zip;base64,' + Buffer.from(res).toString('base64')
 
-                apiResponse.okResponse('Documents package recieved succefully', { documents: data })
-                return
-            }
-            const response = await rabbit.sendRequestPromised('getDocumentsToSignMobile', { sessionId })
+            //     // let base64Data = Buffer.from(res).toString('base64')
+            //     // await fs.promises.writeFile('out.zip', base64Data, {encoding: 'base64'});
+
+            //     apiResponse.okResponse('Documents package recieved succefully', { documents: data })
+            //     return
+            // }
+            const response = await rabbit.sendRequestPromised('getDocumentsToSignMobile', { sessionId, encrypt: false })
             apiResponse.okResponse('Documents package recieved succefully', response)
         } catch (err) {
             apiResponse.errorResponse(400, err.message)

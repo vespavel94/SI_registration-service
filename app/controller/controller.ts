@@ -157,9 +157,6 @@ const controllers = {
             //     }, 10000)
             //     return
             // }
-
-            await rabbit.sendRequestPromised('saveStep2', rabbitRequest)
-
             if (process.env.NODE_ENV === 'test' || process.env.NODE_ENV === 'production') {
                 await rabbit.sendRequestPromised('saveNotificationToken', {
                     sessionId: step2Data.sessionId,
@@ -168,6 +165,8 @@ const controllers = {
                     osType: req.headers['x-os-type']
                 })
             }
+
+            await rabbit.sendRequestPromised('saveStep2', rabbitRequest)
 
             apiResponse.okResponse('Step 2 signed Successfully', null)
         } catch (err) {

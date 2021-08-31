@@ -220,8 +220,8 @@ const controllers = {
             //     apiResponse.okResponse('Documents package recieved succefully', { documents: data })
             //     return
             // }
-            const response = await rabbit.sendRequestPromised('getDocumentsToSignMobile', { sessionId, encrypt: false })
-            apiResponse.okResponse('Documents package recieved succefully', response)
+            const response = (await rabbit.sendRequestPromised('getDocumentsToSignMobile', { sessionId, encrypt: false })).base64
+            apiResponse.okResponse('Documents package recieved succefully', { documents: response })
         } catch (err) {
             apiResponse.errorResponse(400, err.message)
         } finally {

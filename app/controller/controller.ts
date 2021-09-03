@@ -191,12 +191,12 @@ const controllers = {
         const sessionId: number = parseInt(req.params.sessionId)
 
         try {
-            if (debug) {
-                if (!timers[sessionId.toString()]) throw new Error('Session not found')
-                apiResponse.okResponse('Session status recieved succefully', { status: timers[sessionId.toString()] })
-                return
-            }
-            const response = await rabbit.sendRequestPromised('getSessionStatus', { sessionId })
+            // if (debug) {
+            //     if (!timers[sessionId.toString()]) throw new Error('Session not found')
+            //     apiResponse.okResponse('Session status recieved succefully', { status: timers[sessionId.toString()] })
+            //     return
+            // }
+            const response = await rabbit.sendRequestPromised('getSessionStatus', { sessionId, encrypt: false })
             apiResponse.okResponse('Session status recieved succefully', response)
         } catch (err) {
             apiResponse.errorResponse(400, err.message)

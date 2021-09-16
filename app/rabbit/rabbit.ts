@@ -72,7 +72,7 @@ const methods: { [key: string]: RabbitMethod } = {
     },
 
     "acceptMobile": {
-        methodName: 'acceptMobile',
+        methodName: 'signDocuments',
         type: '',
         microservice: microserviceINT
     },
@@ -84,9 +84,9 @@ rabbit.on('sendNotificationRS', async(request: any) => {
     rabbit.sendResponse(request, result)
 })
 
-const start = () => {
-    rabbit.start()
-}
+// const start = () => {
+//     rabbit.start()
+// }
 
 const sendRequest = (method: string, params: object) => {
     const param = {
@@ -112,7 +112,7 @@ const sendRequestPromised = async (method: string, params: object) => {
 }
 
 export default { 
-    start,
+    start: rabbit.start,
     sendRequest,
     sendRequestPromised
 }

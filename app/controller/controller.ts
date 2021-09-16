@@ -235,13 +235,14 @@ const controllers = {
         signDocumentsData.encrypt = false
 
         try {
-            if (debug) {
-                const username = Math.floor(10000 + Math.random() * 90000).toString() + '-01'
-                apiResponse.okResponse('Documents package signed succefully', { username })
-                return
-            }
+            // if (debug) {
+            //     const username = Math.floor(10000 + Math.random() * 90000).toString() + '-01'
+            //     apiResponse.okResponse('Documents package signed succefully', { username })
+            //     return
+            // }
             const response = await rabbit.sendRequestPromised('acceptMobile', signDocumentsData)
-            apiResponse.okResponse('Documents package signed succefully', response)
+            const { username } = response
+            apiResponse.okResponse('Documents package signed succefully', { username })
         } catch (err) {
             apiResponse.errorResponse(400, err.message)
         } finally {
